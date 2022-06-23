@@ -1,0 +1,71 @@
+html {
+  color: #f8f8f8;
+  background-color: #353935;
+  background-repeat: repeat;
+  font-family: 'Joan', serif;
+}
+nav {
+  border: 1px;
+  padding: 6px;
+  font-family: 'Rubik', sans-serif;
+}
+a {
+  color: #f8f8f8;
+  font-size: 20px;
+}
+a:hover {
+  color: #7dcc79;
+}
+
+#image-gallery {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+#page-title {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  color: #7dcc79;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+}
+
+.gallery-title {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  color: #f8f8f8;
+}
+
+.bio {
+  text-indent: .2em;
+  width: 650px;
+  margin: 0 auto;
+  padding-top: 12px;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
+  font-size: .75em;
+  font-weight: 400;
+  background-color: #f8f8f8;
+}
+
+h1, h3, figcaption {
+  color: #353935;
+}
+
+.gallery-item {
+  border-radius: 15px;
+  padding: 5px;
+}
