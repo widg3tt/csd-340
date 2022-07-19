@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="home">
+      <h2>CSD 340: Kyle Jones Landing Page</h2>
+    </header>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="hobbies" id="hobbies">
+          <center>
+          <img src="images/kyle.jpg" class="avatar" size="40px">
+          </center>
+            <h1>Hobbies</h1>
+            <div class="grid-3-col">
+                <div class="card">
+                    <div class="card-title">
+                      Music
+                    </div>
+                    <div class="card-content">
+                      One of my favorite hobbies I've had since I was 15 is playing music. I love to write music while playing guitar and piano. Music has always been a huge part of my life.
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">
+                      Video Games
+                    </div>
+                    <div class="card-content">
+                      I am a pretty competitive gamer online. I love pretty much any first person shooter as well as racing games and role-playing games. I don't get much time to play anymore, but it is a nice way to clear my head.
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">
+                      Development
+                    </div>
+                    <div class="card-content">
+                      I built my first website when I was 12 years old way back in 1998. I love being creative and using my creativity to build things people love to use. I plan to use my education to further these goals in the future.
+                </div>
+            </div>
+        </div>
+        <div class="experience" id="experience">
+            <h1>Experience/Personal Interests</h1>
+            <div class="grid-3-col">
+                <div class="card">
+                    <div class="card-title">
+                      World War II (interest)
+                    </div>
+                    <div class="card-content">
+                      I am a huge history buff who is especially interested in anything related to World War II. My grandfather fought in the Pacific campaign and I got to hear so many stories as a boy.
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">
+                      IT Director (experience)
+                    </div>
+                    <div class="card-content">
+                      For the last seven years I have been the IT Director at a large golf and country club in Oklahoma City, OK. I handle pretty much everything from endpoints to servers. I have also developed several in-house web applications.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">
+                      Cycling (interest)
+                    </div>
+                    <div class="card-content">
+                      I am an avid cyclist and love to get out and ride my bike. I enjoy both offroad and street cycling enjoy the fresh wind on my face as well as the health benefit of getting my heart going.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-container" id="contact">
+            <div class="card full-width">
+                <div class="card-title">
+                  Contact Form
+                </div>
+                <div class="card-content">
+                    <div class="form">
+                        <div class="form-field">
+                            <label for="txtFirstName">First name:</label>
+                            <input type="text" id="txtFirstName" class="input" name="txtFirstName">
+                        </div>
+                        <div class="form-field">
+                            <label for="txtLastName">Last name:</label>
+                            <input type="text" id="txtLastName" class="input" name="txtLastName">
+                        </div>
+                        <div class="form-field">
+                            <label for="txtEmail">Email:</label>
+                            <input type="text" id="txtEmail" class="input" name="txtEmail">
+                        </div>
+                        <div class="form-field">
+                            <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
